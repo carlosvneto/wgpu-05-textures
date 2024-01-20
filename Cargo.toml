@@ -1,0 +1,28 @@
+[package]
+name = "wgpu-05-texture"
+version = "0.1.0"
+authors = ["Carlos Neto <https://github.com/carlosvneto>"]
+edition = "2021"
+
+[dependencies]
+winit = "0.28"
+env_logger = "0.11"
+log = "0.4"
+wgpu = "0.18"
+pollster = "0.3"
+bytemuck = { version = "1.14", features = [ "derive" ] }
+# NEW!
+anyhow = "1.0"
+
+[dependencies.image]
+version = "0.24"
+default-features = false
+features = ["png", "jpeg"]
+
+[[bin]]
+name = "wgpu-05-texture"
+path = "src/main.rs"
+
+[[bin]]
+name = "wgpu-05-texture-challenge"
+path = "src/challenge.rs"

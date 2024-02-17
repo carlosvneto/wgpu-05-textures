@@ -9,7 +9,7 @@ https://sotrh.github.io/learn-wgpu/beginner/tutorial5-textures/
 * Compile and run first program
 * cargo run --bin wgpu-05-texture
 
-* Compile and run second proram
+* Compile and run second program
 * cargo run --bin wgpu-05-texture-challenge
 - Press and hold space bar to switch between textures
 ![alt text](https://github.com/carlosvneto/wgpu-05-textures/blob/main/images/screen.png?raw=true)
